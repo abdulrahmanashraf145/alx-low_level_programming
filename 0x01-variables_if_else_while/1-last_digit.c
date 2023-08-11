@@ -1,6 +1,12 @@
 #include <stdlib.h>
 #include <time.h>
+/* more headers goes there */
 #include <stdio.h>
+/* betty style doc for function goes there */
+/** 
+ * main - main function 
+ * Return: always 0
+ */
 int main(void) 
 {
 	int n;
@@ -18,4 +24,3 @@ int main(void)
 	printf("\n");
 	return (0);
 }
-
