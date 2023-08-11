@@ -1,18 +1,16 @@
 #include <stdio.h>
 int main () {
-	int num ;
-	srand (time(0));
-	num = rand() - RAND_MAX /2;
-	if (num > 0){
-		printf ("%d is positive",num);
+	int n ;
+	n = rand() - RAND_MAX /2;
+	if (n > 0){
+		printf ("%d is positive",n);
 	}
-	else if(num == 0) {
-		printf ("%d is zero",num);
+	else if(n == 0) {
+		printf ("%d is zero",n);
 	}
 	else {
-		  printf ("%d is negative";num);
-	}
+		  printf ("%d is negative",n);
+	}   
 
 	return(0);
 }
-	
