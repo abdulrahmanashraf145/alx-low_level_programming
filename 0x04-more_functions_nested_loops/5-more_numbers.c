@@ -13,9 +13,8 @@ void more_numbers(void) {
                 _putchar(number);
                 number = (j % 10) + '0';
             }
-	    _putchar(number);
+            _putchar(number);
         }
         _putchar('\n');
     }
 }
-
